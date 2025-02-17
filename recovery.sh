@@ -173,7 +173,6 @@ main() {
         read -p "Enter backup server (e.g., user@backupserver:/path): " BACKUP_SERVER
         USE_BACKUP=true
 
-        # Ask if user wants encryption
         read -p "Do you want to encrypt the backup before sending? (y/n): " ENCRYPT_CHOICE
         if [[ "$ENCRYPT_CHOICE" =~ ^[Yy]$ ]]; then
             USE_ENCRYPTION=true
