@@ -107,4 +107,3 @@ sudo ./recovery.sh
 - Interactive & Configurable 🎛️ (User chooses backup & encryption options)
 - Secure Backups 🔐 (AES256 Encryption Available)
 - Comprehensive Logging & Reporting 📑 (Error tracking & email alerts)
-- Fast & Automated 🚀 (Minimal manual intervention)
